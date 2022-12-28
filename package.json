@@ -1,6 +1,6 @@
 {
   "name": "@ckbk/feed",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Feed is a RSS, Atom and JSON feed generator for Node.js, making content syndication simple and intuitive!",
   "homepage": "https://github.com/jpmonette/feed",
   "author": "Jean-Philippe Monette <contact@jpmonette.net>",
@@ -13,6 +13,9 @@
     "test": "jest --silent",
     "test-travis": "jest --coverage"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "rss",
     "atom",
