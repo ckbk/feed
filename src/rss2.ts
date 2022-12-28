@@ -134,7 +134,7 @@ export default (ins: Feed) => {
        * https://validator.w3.org/feed/docs/error/InvalidHttpGUID.html
        */
       if (entry.guidIsPermaLink !== undefined) {
-        item.guid._attr = { isPermaLink: entry.guidIsPermaLink };
+        item.guid._attributes = { isPermaLink: entry.guidIsPermaLink };
       }
     } else if (entry.id) {
       item.guid = { _text: entry.id };

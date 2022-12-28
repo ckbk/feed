@@ -248,11 +248,7 @@ exports[`rss 2.0 should generate a valid feed with non-HTTP GUIDs 1`] = `
         <item>
             <title><![CDATA[Hello World 2]]></title>
             <link>https://example.com/hello-world-2</link>
-            <guid>58f618d7a56f2f745291a473
-                <_attr>
-                    <isPermaLink>false</isPermaLink>
-                </_attr>
-            </guid>
+            <guid isPermaLink=\\"false\\">58f618d7a56f2f745291a473</guid>
             <pubDate>Wed, 10 Jul 2013 23:00:00 GMT</pubDate>
             <description><![CDATA[This is another article about Hello World.]]></description>
         </item>
